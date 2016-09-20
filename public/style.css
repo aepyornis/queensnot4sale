@@ -1,0 +1,18 @@
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Oswald'; /*a name to be used later*/
+    src: url('fonts/Oswald-Stencbab.ttf'); /*URL to font*/
+}
+
+h1 {
+  font-size: 7em;
+  text-align: center;
+}
+
+.oswald {
+    font-family: 'Oswald';
+}

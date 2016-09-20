@@ -1,0 +1,27 @@
+{
+  "name": "queensnot4sale",
+  "version": "0.1.0",
+  "description": "Queens Not 4 Sale Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pug": "pug src --out public",
+    "pug-watch": "npm run pug -- --watch",
+    "serve": "http-server -p 5555 -a 127.0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aepyornis/queensnot4sale.git"
+  },
+  "author": "ziggy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aepyornis/queensnot4sale/issues"
+  },
+  "homepage": "https://github.com/aepyornis/queensnot4sale#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "picnic": "^6.1.5",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
